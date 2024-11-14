@@ -2,17 +2,12 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def home(request):
-    return render(request,  :"home.html")
+def test(request):
 
-    def services(request):
-        our_services =["Bush Camps", "Ballon Tours", "Village Visit"]
-        price= 10000
-        date ="15-11-2024"
-        return render(request, :"services.html")
-
-    def about(request):
-        return render(request, :"about.html")
+    return HttpResponse("Ok ,Done")
+    #save customer
+    c1 = customer( first_name="Saida", last_name="Ali" email="saida@x.com", dob="2000-11=08", gender="Male", weight=62)
+    return HttpResponse(c1)
 
 
         #display data in our pages
