@@ -7,7 +7,7 @@
 
 {% block content %}
 <div>
-<h2>Sacco Customers</h2>
+<h2>Sacco Customer</h2>
 <table class="table table_striped">
     <tr>
         <th>Customer ID</th>
@@ -15,7 +15,7 @@
         <th>Last Name</th>
         <th>Email</th>
         <th>Joining Date</th>
-        
+        <th>Delete</th>
     </tr>
     
     {% for customer in customers %}
@@ -24,6 +24,7 @@
         <td>customer.last_name</td>
         <td>{{ customer.email }}</td>
         <td>{{ customer.created_at }}</td>
+        <td>{<a href=""></a></td>
         
     
     {% empty %}

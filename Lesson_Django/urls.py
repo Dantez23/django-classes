@@ -22,5 +22,9 @@ from sacco import views
 
 urlpatterns = [
     path('', views.customers, name="customers"),
+
+    path('', views.customers, name="customers"),
+
+    path('customer/delete/<int:customer_id>', veiws.delete_customer, name='delete_customer'),
     path('admin/', admin.site.urls),
 ]

@@ -22,3 +22,17 @@ from Django_App.models import Customer
 def customers(request):
     data = Customer.objects.all() # select * from customers
     return render( request, template_name:"customers.html", context:{"customer":data})
+
+
+
+
+
+
+    def customer
+
+
+
+
+
+        #pip install django-crispy
+        #pip  install crispy-boostrap5

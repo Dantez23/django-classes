@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    text-decoration: white(5, 232, 50);
+}
+
+.logo{
+    color:#fff ;
+    padding: 20px;
+    text-align:left;
+    font-size: 35px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #f3f67c;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+nav.logo {
+    color: green;
+    padding: 100px;
+    text-align:left;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+    align-content:space-between ;
+}
+li a{
+    color: mediumblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #06ed34;
+  background: #fff;
+}.footer{
+    text-align: center;
+    padding: 5px;
+    background-color:blue;
+    color: white;
+    border-radius: 90px;
+    height: 150px;
+    font-weight: bold;
+}
+h1{
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to right, #99aec7, #0072ff, #526d8e);
+    font-style:oblique;
+}
+.button{
+    color: #06ed34;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    font-weight: 100;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 100;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.price-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.price-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.price:hover .price-content {
+    display: block;
+}
+.home-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    font-weight: 100;
+}
+
+.home-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 100;
+}
+
+button:hover {
+    background-color: #45a049;
+}
